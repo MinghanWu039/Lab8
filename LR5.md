@@ -166,7 +166,7 @@ Server Started! Visit http://localhost:4038 to visit.
 
 Then, I go to the browser and open the link. This is the initial page:
 
-<img src=https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p1.png width="60%" height="60%">
+![pic](https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p1.png?raw=true)
 
 ### link 1
 
@@ -176,7 +176,7 @@ Add this link as part of the query: `http://localhost:4038/grade?repo=https://gi
 
 Press enter and here is the result:
 
-<img src=https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p2.png width="60%" height="60%">
+![pic](https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p2.png?raw=true)
 
 Here, the first two lines show that we have successfully copies the repo to the local.
 
@@ -193,7 +193,7 @@ Replace the query with this link: `http://localhost:4038/grade?repo=https://gith
 
 Result:
 
-<img src=https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p3.png width="60%" height="60%">
+![pic](https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p3.png?raw=true)
 
 Here, we can see the correct implementation passes all tests and gets 100%.
 
@@ -205,7 +205,7 @@ Replace the query with this link: `http://localhost:4038/grade?repo=https://gith
 
 Result:
 
-<img src=https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p4.png width="60%" height="60%">
+![pic](https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p4?raw=true)
 
 The java file submitted cannot compile. The script shows the compile error message.
 
@@ -217,7 +217,7 @@ Replace the query with this link: `http://localhost:4038/grade?repo=https://gith
 
 Result:
 
-<img src=https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p5.png width="60%" height="60%">
+![pic](https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p5.png?raw=true)
 
 Before compiling, the script finds out that the method signature inside the java file isn't correct.
 In this case, it makes no sense to test the file. Hence, a notification is sent out.
@@ -230,7 +230,7 @@ Replace the query with this link: `http://localhost:4038/grade?repo=https://gith
 
 Result:
 
-<img src=https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p6.png width="60%" height="60%">
+![pic](https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p6.png?raw=true)
 
 The script cannot find the java file with the name `ListExamples.java` in any place inside the repo. So instead of continuing,
 it sends out a notification.
@@ -243,7 +243,7 @@ Replace the query with this link: `http://localhost:4038/grade?repo=https://gith
 
 Result:
 
-<img src=https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p7.png width="60%" height="60%">
+![pic](https://github.com/MinghanWu039/Lab8/blob/e772632e4e7fbf5cc52878fceb6137f422a09c4e/LR5-p7.png?raw=true)
 
 The script cannot find the java file with the name `ListExamples.java` directly under the repo, but it can find it in
 some nested directory. In this case, it sends a notification but goes on with the process (after copying the file to the
